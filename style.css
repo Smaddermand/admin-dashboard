@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 3fr 8fr 3fr;
+    grid-template-rows: 1fr 1fr 10fr;
+}
+
+.sidebar{
+    background-color: skyblue;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    grid-row: 1 / 4;
+    display: grid;
+    grid-template-rows: 1fr 5fr 5fr 5fr;
+    justify-content: center;
+    row-gap: 50px;
+}
+.navlogo{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.logo{
+    align-self: center;
+}
+
+.navlinks{
+    display: grid; 
+}
+
+.spacer{
+    visibility: hidden;
+}
+
+
+
+.header{
+    background-color: lightyellow;
+    grid-column: 2 / 4;
+}
+
+.update{
+    background-color: lightcoral;
+    grid-column: 2 / 4;
+}
+
+.project{
+    background-color: lightgray;
+}
+
+.announcement{
+    background-color: grey;
+}
